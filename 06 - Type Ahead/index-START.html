@@ -22,7 +22,12 @@ fetch(endpoint)
   .then(blob => blob.json())
   .then(data => cities.push(...data))
 
-
+function findMatches(wordToMatch, cities) {
+  return cities.filter(place => {
+    const regex = new RegExp()
+    return places.city.match()
+  });
+}
 </script>
   </body>
 </html>
